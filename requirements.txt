@@ -3,3 +3,4 @@ keras>=3.14.0
 openvino>=2025.4.0
 numpy>=2.3.0
 pillow>=11.0.0
+spicy
