@@ -569,8 +569,4 @@ with tab_evaluasi:
             use_container_width=True,
             hide_index=True,
         )
-        st.markdown(
-            "<div class='section-desc'>Kesalahan terbesar terdapat pada 272 data R/Anorganik yang diprediksi sebagai O/Organik.</div>",
-            unsafe_allow_html=True,
-        )
         st.markdown("</div>", unsafe_allow_html=True)
