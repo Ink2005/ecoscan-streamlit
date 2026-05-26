@@ -540,10 +540,6 @@ with tab_evaluasi:
     c3.metric("Test Loss", "0,2909")
     c4.metric("Input Size", "224×224")
 
-    st.write(
-        "Model kuat dalam mengenali sampah organik, tetapi masih memiliki kesalahan pada sebagian sampah anorganik yang diprediksi sebagai organik. "
-        "Hal ini terlihat dari recall kelas anorganik yang lebih rendah dibandingkan kelas organik."
-    )
     st.markdown("</div>", unsafe_allow_html=True)
 
     col_cm, col_table = st.columns([0.9, 1.1], gap="large")
